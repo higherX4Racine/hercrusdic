@@ -13,3 +13,8 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 URL: https://higherx4racine.github.io/hercrusdic/
+Imports: 
+    readr
+Depends: 
+    R (>= 3.5)
+LazyData: true
