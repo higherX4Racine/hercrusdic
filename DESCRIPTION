@@ -1,0 +1,14 @@
+Package: hercrusdic
+Title: Use Infinite Campus Data from Racine Unified School District
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Ben", "Taft", , "ben.taft@career2cradle.org", role = c("aut", "cre")),
+    person("Higher Expectations for Racine County", role = "cph")
+  )
+Description: Since 2014-15, Racine Unified has used Infinite Campus as its
+  student information system. This package provides an R interface to the kinds
+  of csv files that one can download from Infinite Campus's web interface. 
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
