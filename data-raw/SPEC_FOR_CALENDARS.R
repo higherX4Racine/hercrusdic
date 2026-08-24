@@ -9,8 +9,8 @@ SPEC_FOR_CALENDARS <- list(
     `Student Minutes`         = readr::col_integer(),
     `Whole Day Absence`       = readr::col_integer(),
     `Half Day Absence`        = readr::col_integer(),
-    `Has Positive Attendance` = readr::col_logical(),
-    `Attendance Edit Days`    = readr::col_integer(),
+    `Has Positive Attendance` = readr::col_skip(),
+    `Attendance Edit Days`    = readr::col_skip(),
     `Teacher Minutes`         = readr::col_integer(),
     `Is School Choice`        = readr::col_logical()
 )

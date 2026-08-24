@@ -5,7 +5,7 @@ SPEC_FOR_ENROLLMENTS <- list(
     `Student ID`    = readr::col_integer(),
     `Calendar ID`   = readr::col_integer(),
     `Grade Level`   = readr::col_character(),
-    SPED            = readr::col_logical(),
+    SPED            = readr::col_character(),
     `Start Date`    = readr::col_date(format = "%Y-%m-%d"),
     `End Date`      = readr::col_date(format = "%Y-%m-%d")
 )
